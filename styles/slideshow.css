@@ -13,7 +13,7 @@ html {
     background-image: linear-gradient(maroon, navy);
 }
 body {
-    background-color: aquamarine;
+    background-image: linear-gradient(navy, maroon);
     max-width: 1200px;
     width: 100%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -62,10 +62,12 @@ header h1 {
   width: auto;
   margin-top: -22px;
   padding: 16px;
+  margin-right: auto;
+  margin-left: auto;
   color: white;
   font-weight: bold;
   font-size: 18px;
-  transition: 0.6s ease;
+  transition: 1s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
 }
