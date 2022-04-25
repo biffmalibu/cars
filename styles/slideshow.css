@@ -1,58 +1,20 @@
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-.clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-html {
-    background-image: linear-gradient(maroon, navy);
-}
-body {
-    background-image: linear-gradient(navy, maroon);
-    max-width: 1200px;
-    width: 100%;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 100%;
-    border: 3px solid red;
-    margin: auto;
-    padding: -100px;
-}
-header {
-    border: 3px solid red;
-    background-color: navy;
-    
-}
-header img {
-    float: left;
-    padding: 1em 2em;
-}
-header h1 {
-    padding: 1em 0;
-}
 /* Slideshow container */
 .slideshow-container {
-  max-width: 2560px;
-  width: 70%;
+  max-width: 800px;
   position: relative;
-  margin: auto;
-  margin-right: 165px;
+  margin: 30px auto 0;
 }
 
 /* Hide the images by default */
 .mySlides {
   display: none;
-  
+
 }
 .mySlides img {
     border: 3px ridge red;
     border-radius: 30px;
     max-width: 800px;
-    margin: 30px auto 0 auto;
 }
 /* Next & previous buttons */
 .prev, .next {
@@ -62,8 +24,6 @@ header h1 {
   width: auto;
   margin-top: -22px;
   padding: 16px;
-  margin-right: auto;
-  margin-left: auto;
   color: white;
   font-weight: bold;
   font-size: 18px;
@@ -120,7 +80,7 @@ header h1 {
 }
 
 /* Fading animation */
-.fade {
+.fadeout {
   animation-name: fade;
   animation-duration: 1.5s;
 }
@@ -140,4 +100,14 @@ footer {
   padding-top: 20px;
   padding-bottom: 20px;
   margin: -3px;
+}
+@media only screen and (max-width: 800px) {
+    .mySlides img {
+      max-width: 100%;
+      border: none;
+      border-radius: 0;
+    }
+    header h2 {
+      text-align: center;
+    }
 }

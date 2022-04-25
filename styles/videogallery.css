@@ -1,35 +1,4 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-.clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-html {
-    background-image: url(../images/panorama.jpg);
-}
-body {
-    background-color: rgba(0, 0, 0, .8);
-}
-header {
-    background: rgb(0,0,0);
-    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(249,41,41,1) 50%, rgba(170,32,32,1) 100%);
-    padding: 30px 0;
-    padding-left: 1em;
-}
-header h2 {
-    font-family: 'Staatliches', cursive;
-    font-size: 350%;
-    margin-left: 1em;
-}
-#logoimage {
-    max-width: 150px;
-    width: 100%;
-    float: left;
-}
+
 #navlist {
     width: 15%;
     float: left;
